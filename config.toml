@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Some Title"
+title = "HUGE"
 theme = "minimal"
 
 [taxonomies]
@@ -42,6 +42,10 @@ theme = "minimal"
   [[menu.nav]]
   name = "About"
   url = "/about/"
+  weight = 3
+  [[menu.nav]]
+  name = "BIG ASCII"
+  url = "/big/"
   weight = 3
   [[menu.nav]]
   name = "RSS"
